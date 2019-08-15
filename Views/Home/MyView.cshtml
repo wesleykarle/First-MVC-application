@@ -1,0 +1,26 @@
+﻿@model My_First_MVC_Application.Models.GuestResponse
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+
+</head>
+<body>
+    <div class="text-center">
+        <h3>We're going to have an exciting party!</h3>
+        <h4>And you are invited</h4>
+        <a class="btn btn-primary" asp-action="RsvpForm">RSVP Now</a>
+
+        <img src="https://image.shutterstock.com/image-vector/party-time-banner-background-editable-260nw-1068122210.jpg">
+
+    </div>
+</body>
+</html>
